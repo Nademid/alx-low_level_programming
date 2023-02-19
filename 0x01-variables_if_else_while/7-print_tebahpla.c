@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - peint the alpha in reverse
+ * main - print the lower alpha in reverse
  * Return: 0
  */
 int main(void)
 {
 	char le;
 
-	for (le = 'z'; le <= 'a'; le--)
+	for (le = 'z'; le >= 'a'; le--)
 		putchar(le);
 
 	putchar('\n');
