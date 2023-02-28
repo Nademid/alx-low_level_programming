@@ -5,7 +5,7 @@
  *
  * @s: The string to get the length of.
  *
- * Return: 0 is success
+ * Return: length
  */
 int _strlen(char *s)
 {
@@ -14,5 +14,5 @@ int _strlen(char *s)
 
 	for (; *s++;)
 		a++;
-	return (lengthi);
+	return (length);
 }
