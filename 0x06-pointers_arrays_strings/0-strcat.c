@@ -6,7 +6,7 @@ include "main.h"
  * @src: char
  * Return: char
  */
-char *strcat(char *dest, const char *src)
+char *strcat(char *dest, char *src)
 {
 	char *s = dest;
 
