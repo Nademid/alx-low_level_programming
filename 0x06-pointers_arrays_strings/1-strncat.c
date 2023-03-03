@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _strncat - concatenates two strings
@@ -6,7 +6,7 @@ include "main.h"
  * @src: The src value
  * @n: The limit of the conca
  *
- * Return: pointer to the resulting string dest
+ * Return: A pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -16,7 +16,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dlen++;
 	}
-
 	while (j < n && src[j])
 	{
 		dest[dlen] = src[j];
